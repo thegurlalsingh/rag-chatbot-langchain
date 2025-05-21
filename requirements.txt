@@ -1,4 +1,7 @@
 streamlit
-langchain
 google-generativeai
 PyPDF2
+python-docx
+sentence-transformers
+faiss-cpu
+numpy
