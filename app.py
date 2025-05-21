@@ -1,3 +1,5 @@
+import os
+os.environ["STREAMLIT_WATCHER_TYPE"] = "none"
 import streamlit as st
 from rag_utils import parse_file, split_text, build_vectorstore, query_with_gemini
 import numpy as np
